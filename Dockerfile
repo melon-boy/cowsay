@@ -2,7 +2,7 @@ FROM debian:latest
 
 LABEL description="Cowsay docker" \
   author="M. Espinosa" \
-  maintainer="me@marcoespinosa.es"
+  maintainer="hi@marcoespinosa.es"
 
 RUN apt update \
   && apt -y install cowsay \
